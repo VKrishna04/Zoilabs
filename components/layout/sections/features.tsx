@@ -11,39 +11,39 @@ interface FeaturesProps {
 const featureList: FeaturesProps[] = [
   {
     icon: "TabletSmartphone",
-    title: "Mobile Friendly",
+    title: "Powerful 360J Delivery",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, consectetur.",
+      "Maximum defibrillation effectiveness with 360-joule shocks for better outcomes in challenging cardiac arrest scenarios.",
   },
   {
     icon: "BadgeCheck",
-    title: "Social Proof",
+    title: "LoRa Remote Monitoring",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Natus consectetur, odio ea accusamus aperiam.",
+      "Real-time status reporting via LoRa wireless technology without Wi-Fi or cellular dependence.",
   },
   {
     icon: "Goal",
-    title: "Targeted Content",
+    title: "AI Predictive Maintenance",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. odio ea accusamus aperiam.",
+      "Advanced algorithms predict potential failures before they occur, ensuring your device is always rescue-ready.",
   },
   {
     icon: "PictureInPicture",
-    title: "Strong Visuals",
+    title: "E-Ink Battery Optimization",
     description:
-      "Lorem elit. A odio velit cum aliquam. Natus consectetur dolores, odio ea accusamus aperiam.",
+      "Energy-efficient display extends battery life while maintaining clear visibility in all conditions.",
   },
   {
     icon: "MousePointerClick",
-    title: "Clear CTA",
+    title: "One-Touch Operation",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing. odio ea accusamus consectetur.",
+      "Simple activation with adaptive voice and visual guidance makes effective aid possible even for untrained users.",
   },
   {
     icon: "Newspaper",
-    title: "Clear Headline",
+    title: "Environmental Hardening",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur.",
+      "Withstands extreme temperatures (-20°C to 60°C) with IP56 protection and military-grade drop resistance.",
   },
 ];
 
@@ -59,9 +59,8 @@ export const FeaturesSection = () => {
       </h2>
 
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
-        fugiat, odit similique quasi sint reiciendis quidem iure veritatis optio
-        facere tenetur.
+        Our next-generation AED combines life-saving power with smart
+        technology, ensuring reliability when you need it most.
       </h3>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
