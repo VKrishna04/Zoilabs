@@ -35,7 +35,7 @@ export const TeamSection = () => {
         },
         {
           name: "Github",
-          url: "https://github.com/leoMirandaa",
+          url: "https://github.com/VKrishan04",
         },
         {
           name: "X",
@@ -73,7 +73,7 @@ export const TeamSection = () => {
         },
         {
           name: "Github",
-          url: "https://github.com/leoMirandaa",
+          url: "https://github.com/VKrishan04",
         },
       ],
     },
@@ -90,7 +90,7 @@ export const TeamSection = () => {
         },
         {
           name: "Github",
-          url: "https://github.com/leoMirandaa",
+          url: "https://github.com/VKrishan04",
         },
         {
           name: "X",
@@ -124,7 +124,7 @@ export const TeamSection = () => {
         },
         {
           name: "Github",
-          url: "https://github.com/leoMirandaa",
+          url: "https://github.com/VKrishan04",
         },
       ],
     },
@@ -141,7 +141,7 @@ export const TeamSection = () => {
         },
         {
           name: "Github",
-          url: "https://github.com/leoMirandaa",
+          url: "https://github.com/VKrishan04",
         },
         {
           name: "X",

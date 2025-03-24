@@ -11,27 +11,27 @@ interface BenefitsProps {
 const benefitList: BenefitsProps[] = [
   {
     icon: "Blocks",
-    title: "Build Brand Trust",
+    title: "Proven Reliability",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "Demonstrate your commitment to safety with AEDs that feature remote monitoring and predictive maintenance. Employees and customers feel secure knowing your equipment is always ready.",
   },
   {
     icon: "LineChart",
-    title: "More Leads",
+    title: "Reputation Excellence",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, natus consectetur.",
+      "Highlight your state-of-the-art safety equipment in marketing materials. Our AEDs with 360J power and AI-enabled features showcase your organization's dedication to cutting-edge protection.",
   },
   {
     icon: "Wallet",
-    title: "Higher Conversions",
+    title: "Cost Efficiency",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur. A odio velit cum aliquam",
+      "Convert safety investments into measurable outcomes with devices that require less maintenance and offer longer battery life through e-ink display technology, reducing your total cost of ownership.",
   },
   {
     icon: "Sparkle",
-    title: "Test Marketing Ideas",
+    title: "Competitive Advantage",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "Leverage our environmental hardening and one-touch operation in your messaging to differentiate your safety program from competitors still using outdated equipment.",
   },
 ];
 
@@ -46,9 +46,9 @@ export const BenefitsSection = () => {
             Your Shortcut to Success
           </h2>
           <p className="text-xl text-muted-foreground mb-8">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
-            ducimus reprehenderit architecto rerum similique facere odit
-            deleniti necessitatibus quo quae.
+            Our advanced AED technology doesn&apos;t just save lives—it
+            streamlines emergency response and reduces long-term ownership costs
+            through smart design and predictive capabilities.
           </p>
         </div>
 

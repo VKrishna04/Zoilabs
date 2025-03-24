@@ -75,7 +75,7 @@ export const Navbar = () => {
     <header className="shadow-inner bg-opacity-15 w-[90%] md:w-[70%] lg:w-[75%] lg:max-w-screen-xl top-5 mx-auto sticky border border-secondary z-40 rounded-2xl flex justify-between items-center p-2 bg-card">
       <Link href="/" className="font-bold text-lg flex items-center">
         <Image
-          src="/logo.jpg"
+          src="/logo.png"
           alt="Logo"
           width={36}
           height={36}
@@ -102,7 +102,7 @@ export const Navbar = () => {
                 <SheetTitle className="flex items-center">
                   <Link href="/" className="flex items-center">
                     <Image
-                      src="/logo.jpg"
+                      src="/logo.png"
                       alt="Logo"
                       width={36}
                       height={36}
@@ -140,7 +140,7 @@ export const Navbar = () => {
       {/* <!-- Desktop --> */}
       <NavigationMenu className="hidden lg:block mx-auto">
         <NavigationMenuList>
-          <NavigationMenuItem>
+          {/* <NavigationMenuItem>
             <NavigationMenuTrigger className="bg-card text-base">
               Features
             </NavigationMenuTrigger>
@@ -170,7 +170,7 @@ export const Navbar = () => {
                 </ul>
               </div>
             </NavigationMenuContent>
-          </NavigationMenuItem>
+          </NavigationMenuItem> */}
 
           <NavigationMenuItem>
             {routeList.map(({ href, label }) => (
@@ -190,7 +190,7 @@ export const Navbar = () => {
         <Button asChild size="sm" variant="ghost" aria-label="View on GitHub">
           <Link
             aria-label="View on GitHub"
-            href="https://github.com/VKrishan04/shadcn-landing-page.git"
+            href="https://github.com/VKrishan04/Zoilabs.git"
             target="_blank"
           >
             <Github className="size-5" />
