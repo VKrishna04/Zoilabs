@@ -1,14 +1,13 @@
-# Zoi Landing Page Template
-<!-- Iris	#5D3FD3	rgb(93, 63, 211) -->
-## <a href="https://ui.shadcn.com/" target="_blank">Zoi</a> + <a href="https://nextjs.org/" target="_blank">Next.js</a> + <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a> + <a href="https://tailwindcss.com/" target="_blank">Tailwind</a>.
+# Zoilabs Landing Page
 
+## Built with <a href="https://ui.shadcn.com/" target="_blank">shadcn/ui</a> + <a href="https://nextjs.org/" target="_blank">Next.js</a> + <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a> + <a href="https://tailwindcss.com/" target="_blank">Tailwind</a>.
 
-![Alt text](./public/demo-img.jpg)
+![Demo Image](./public/demo-img.jpg)
 
 ## Sections
 
 - [x] Navbar
-- [x] Sidebar(mobile)
+- [x] Sidebar (mobile)
 - [x] Hero
 - [x] Sponsors
 - [x] Benefits
@@ -18,7 +17,7 @@
 - [x] Community
 - [x] Contact
 - [x] Pricing
-- [x] Frequently Asked Questions(FAQ)
+- [x] Frequently Asked Questions (FAQ)
 - [x] Services
 - [x] Footer
 
@@ -51,30 +50,44 @@ Withstands extreme temperatures (-20°C to 60°C) with IP56 protection and milit
 - [x] Fully Responsive Design
 - [x] User Friendly Navigation
 - [x] Dark Mode
+- [x] Custom Theme
 
 ## How to install
 
-1. Clone this repositoy:
+1. Clone this repository:
 
 ```bash
-git clone https://github.com/VKrishan04/Ziolabs.git
+git clone https://github.com/VKrishan04/Zoilabs.git
 ```
 
-2. Go into project
+2. Go into project directory:
 
 ```bash
-cd shadcn-landing-page
+cd Zoilabs
 ```
 
-3. Install dependencies
+3. Install dependencies:
 
 ```bash
 npm install
-npm audit fix
 ```
 
-4. Run project
+4. Run the development server:
 
 ```bash
 npm run dev
 ```
+
+5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Customization
+
+You can customize various aspects of this template:
+
+- **Theme Colors**: Edit the color variables in `app/globals.css`
+- **Content**: Update text and images in the section components
+- **Layout**: Modify component arrangement in `app/page.tsx`
+
+## License
+
+This project is MIT licensed.
